@@ -49,7 +49,7 @@ Storm seeds are created by randomly sampling from the smoothed spatio-temporal d
 These seeds are then propagated with the beta-advection method, which at its most basic means that the storms are blown by the large-scale prevailing winds. The beta-advection technique was initially described by Emanuel et al. ([2006](https://doi.org/10.1175/BAMS-87-3-299)), with an improved beta scheme as described in Xu et al. ([2024](https://doi.org/10.1038/s41597-024-02952-7)). Note that these tracks are NOT simply perturbations of historical events, but entirely new storms that in some cases have never been seen before.
 
 ### Intensity
-Storm intensity is modeled with an deep learning neural network developed for this framework. Xu et al. ([2021](https://doi.org/10.1175/WAF-D-20-0104.1)) details the methodology, and finds that the model is competitive with&mdash;and even occasionally outperforms&mdash;operational TC intensity forecasts.
+Storm intensity is modeled with a deep learning neural network developed for this framework. Xu et al. ([2021](https://doi.org/10.1175/WAF-D-20-0104.1)) details the methodology, and finds that the model is competitive with&mdash;and even occasionally outperforms&mdash;operational TC intensity forecasts.
 
 ### Projecting into the Future
 Because RAFT does not require high-resolution forcings, it can be forced with lower-resolution future climate simulations such as those from the CMIP6 project. This enables the projection of TC behavior into the future under various different scenarios. This methodology is described and explored by Balaguru et al. ([2023](https://doi.org/10.1126/sciadv.adf0259)), who find substantially increasing coastal hurricane risk in the U.S. in the SSP5-8.5 scenario.
@@ -81,7 +81,7 @@ Storm surge hazards are one of the most dangerous impacts from TCs, yet traditio
 
 ### Electric Power Grid Impacts
 
-A generalized power outage model, the Electric Power Outages from Cyclone Hazards (EPOCH) model, described in Rice et al. ([2025](https://doi.org/10.1088/1748-9326/adad85)), was developed to assess the risk posed by RAFT-simualted TCs to the electric grid. Development of this model is actively ongoing.
+A generalized power outage model, the Electric Power Outages from Cyclone Hazards (EPOCH) model, described in Rice et al. ([2025](https://doi.org/10.1088/1748-9326/adad85)), was developed to assess the risk posed by RAFT-simulated TCs to the electric grid. Development of this model is actively ongoing.
 
 ![Power outage risk](/assets/img/outages.jpg)
 > _Historical (1980-2015) and future (2065-2100) tropical cyclone-induced electric power outage risk, as projected by RAFT (Rice et al. [2025](https://doi.org/10.1088/1748-9326/adad85))_
