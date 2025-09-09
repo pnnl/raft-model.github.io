@@ -26,7 +26,7 @@ Points of Contact:
     - [Synthetic tropical cyclones](#synthetic-tropical-cyclones)
     - [Storm surge](#storm-surge)
     - [Power outages](#power-outages)
-    - [Energy infrastructure risk](#energy-infrastructure-risk)
+    - [Infrastructure risk](#infrastructure-risk)
 
 <hr>
 
@@ -135,7 +135,7 @@ Power outages at a U.S. county level, modeled for 900,000 RAFT TCs forced by CMI
 
 > Rice, J. R., Balaguru, K., Staid, A., Xu, W., & Judi, D. (2024). Electric power outages from 900k simulated hurricanes in a changing climate, for the United States and Puerto Rico [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.12746675
 
-### Energy infrastructure risk
+### Infrastructure risk
 
 Hub-height wind and damage probability maps for wind turbines exposed to RAFT-CMIP6 tropical cyclones from historical (1980-2014) and future (2066-2100) climate scenarios along the U.S. Atlantic and Gulf Coasts:
 
