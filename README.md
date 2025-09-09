@@ -2,7 +2,7 @@
 
 The **R**isk **A**nalysis **F**ramework for **T**ropical Cyclones (RAFT) is a unified framework capable of efficiently simulating millions of synthetic tropical cyclones (TCs; also known as hurricanes or typhoons) and their impacts, enabling robust probabilistic risk assessment.
 
-RAFT consists of several different components that are coupled into one cohesive system. It utilizes established physical and statistical methods, while custom machine learning and AI approaches have been developed for more challenging and novel tasks. The summary of capabilities below is intended as a high-level overview; we refer the interested reader the referenced publications for technical details. RAFT is written in Python.
+RAFT consists of several different components that are coupled into one cohesive system. It utilizes established physical and statistical methods, while custom machine learning and AI approaches have been developed for more challenging and novel tasks. The summary of capabilities below is intended as a high-level overview; we refer interested readers to the referenced publications for technical details.
 
 Points of Contact:
 * Karthik Balaguru (PI): karthik.balaguru@pnnl.gov
@@ -14,7 +14,7 @@ Points of Contact:
 - [The Framework](#the-framework)
   - [Synthetic TC Model](#synthetic-tc-model)
     - [Input Forcings](#input-forcings)
-    - [Genesis \& Track](#genesis--track)
+    - [Genesis and Track](#genesis-and-track)
     - [Intensity](#intensity)
     - [Projecting into the Future](#projecting-into-the-future)
   - [Hazard Models](#hazard-models)
@@ -33,7 +33,7 @@ Points of Contact:
 
 # The Framework
 
-RAFT is a collection of a variety of models and tools which, when combined, can simulate large numbers of TCs which are both realistic and physically consistent with the large-scale atmospheric forcing conditions.
+RAFT is a collection of models and tools written in Python, which when combined can simulate large numbers of TCs which are both realistic and physically consistent with the large-scale atmospheric forcing conditions.
 
 ## Synthetic TC Model
 
@@ -43,13 +43,13 @@ RAFT is a collection of a variety of models and tools which, when combined, can 
 ### Input Forcings
 RAFT is forced with large-scale environmental conditions, which can be extracted either from observations or atmospheric models. Instead of trying to predict exactly what storms would form in a given environment, it simulates plausible storms that are consistent with the characteristics of that environment.
 
-### Genesis & Track
+### Genesis and Track
 Storm seeds are created by randomly sampling from the smoothed spatio-temporal distribution of historical TC genesis. Although the rate of genesis seeding is nominally fixed, the intensity model described later may choose to decay these seeds before they develop, effectively modulating genesis frequency based on the favorability of the environment. 
 
 These seeds are then propagated with the beta-advection method, which at its most basic means that the storms are blown by the large-scale prevailing winds. The beta-advection technique was initially described by Emanuel et al. ([2006](https://doi.org/10.1175/BAMS-87-3-299)), with an improved beta scheme as described in Xu et al. ([2024](https://doi.org/10.1038/s41597-024-02952-7)). Note that these tracks are NOT simply perturbations of historical events, but entirely new storms that in some cases have never been seen before.
 
 ### Intensity
-Storm intensity is modeled with an deep learning neural network developed for this framework. Xu et al. ([2021](https://doi.org/10.1175/WAF-D-20-0104.1)) details the methodology, and finds that the model is competitive with&mdash;and even occasionally outperforms,&mdash;operational TC intensity forecasts.
+Storm intensity is modeled with an deep learning neural network developed for this framework. Xu et al. ([2021](https://doi.org/10.1175/WAF-D-20-0104.1)) details the methodology, and finds that the model is competitive with&mdash;and even occasionally outperforms&mdash;operational TC intensity forecasts.
 
 ### Projecting into the Future
 Because RAFT does not require high-resolution forcings, it can be forced with lower-resolution future climate simulations such as those from the CMIP6 project. This enables the projection of TC behavior into the future under various different scenarios. This methodology is described and explored by Balaguru et al. ([2023](https://doi.org/10.1126/sciadv.adf0259)), who find substantially increasing coastal hurricane risk in the U.S. in the SSP5-8.5 scenario.
