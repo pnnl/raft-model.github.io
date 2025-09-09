@@ -38,7 +38,7 @@ RAFT is a collection of models and tools written in Python, which when combined 
 ## Synthetic TC Model
 
 ![Sample storms from RAFT](/assets/img/raft_historical_tracks.jpg)
-> _(top) Comparison of 200 randomly sampled observed and synthetic RAFT TCs in the North Atlantic. (bottom) Comparison of the TC frequency between the observational record and 40,000 RAFT storms. (Xu et al [2024](https://doi.org/10.1038/s41597-024-02952-7))_
+> _(top) Comparison of 200 randomly sampled observed and synthetic RAFT TCs in the North Atlantic. (bottom) Comparison of the TC frequency between the observational record and 40,000 RAFT storms. (Xu et al. [2024](https://doi.org/10.1038/s41597-024-02952-7))_
 
 ### Input Forcings
 RAFT is forced with large-scale environmental conditions, which can be extracted either from observations or atmospheric models. Instead of trying to predict exactly what storms would form in a given environment, it simulates plausible storms that are consistent with the characteristics of that environment.
