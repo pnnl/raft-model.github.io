@@ -165,3 +165,16 @@ Power outages at a U.S. county level, modeled for 900,000 RAFT TCs forced by CMI
 Hub-height wind and damage probability maps for wind turbines exposed to RAFT-CMIP6 tropical cyclones from historical (1980-2014) and future (2066-2100) climate scenarios along the U.S. Atlantic and Gulf Coasts:
 
 > Lipari, S., Balaguru, K., Rice, J., Feng, S., Xu, W., Berg, L., & Judi, D. (2024). Offshore wind turbine damage probability maps and hub height TC wind speeds for U.S. Atlantic and Gulf Coasts exposed to historical and future tropical cyclones [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.13840812
+
+
+<br>
+<hr>
+<br>
+
+<small>
+
+
+Neither the United States Government nor the United States Department of Energy, nor Battelle, nor any of their employees, nor any jurisdiction or organization that has cooperated in the development of these materials, makes any warranty, express or implied, or assumes any legal liability or responsibility for the accuracy, completeness, or usefulness or any information, apparatus, product, software, or process disclosed, or represents that its use would not infringe privately owned rights. Reference herein to any specific commercial product, process, or service by trade name, trademark, manufacturer, or otherwise does not necessarily constitute or imply its endorsement, recommendation, or favoring by the United States Government or any agency thereof, or Battelle Memorial Institute. The views and opinions of authors expressed herein do not necessarily state or reflect those of the United States Government or any agency thereof.
+  
+
+</small>
