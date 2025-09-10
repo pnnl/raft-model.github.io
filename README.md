@@ -73,7 +73,7 @@ Storm intensity is modeled with a deep learning neural network developed for thi
   >
 </div>
 
-> _Average error of our AI intensity model (MLP), compared with a number of established methods including NHC Official Forecasts (OFCL) and NOAA's Hurricane Weather & Research Forecasting model (HWFI) (Xu et al. [2021](https://doi.org/10.1175/WAF-D-20-0104.1))_
+> _Average error of our AI intensity model (MLP), compared with a number of established methods including NHC Official Forecasts (OFCL) and NOAA's Hurricane Weather & Research Forecasting model (HWFI). Lower is better. (Xu et al. [2021](https://doi.org/10.1175/WAF-D-20-0104.1))_
 
 ### Projecting into the Future
 Because RAFT does not require high-resolution forcings, it can be forced with lower-resolution future climate simulations such as those from the CMIP6 project. This enables the projection of TC behavior into the future under various different scenarios. This methodology is described and explored by Balaguru et al. ([2023](https://doi.org/10.1126/sciadv.adf0259)), who find substantially increasing coastal hurricane risk in the U.S. in the SSP5-8.5 scenario.
