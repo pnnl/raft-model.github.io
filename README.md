@@ -48,7 +48,7 @@ RAFT is a collection of models and tools written in Python, which when combined 
 RAFT is forced with large-scale environmental conditions, which can be extracted either from observations or atmospheric models. Instead of trying to predict exactly what storms would form in a given environment, it simulates plausible storms that are consistent with the characteristics of that environment.
 
 ### Genesis and Track
-Storm seeds are created by randomly sampling from the smoothed spatio-temporal distribution of historical TC genesis. Although the rate of genesis seeding is nominally fixed, the intensity model described later may choose to decay these seeds before they develop, effectively modulating genesis frequency based on the favorability of the environment. 
+Storm seeds are created by randomly sampling from the smoothed spatio-temporal distribution of historical TC genesis. Although the global rate of genesis seeding is nominally fixed, the intensity model described later may choose to decay these seeds before they develop, effectively modulating genesis frequency based on the favorability of the environment. 
 
 <div style="text-align: center">
   <img 
