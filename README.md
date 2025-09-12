@@ -94,7 +94,7 @@ There are two rainfall models in this repository:
 A deep learning AI rainfall model is currently in development.
 
 ![Rainfall examples](/assets/img/rainfall.png)
-> _Accumulated TCR rainfall from two sample RAFT storms (Xu et al. [2024](https://doi.org/10.1038/s41597-024-02952-7))_
+> _Accumulated TCR rainfall from two sample RAFT storms affecting the New York and Houston regions (Xu et al. [2024](https://doi.org/10.1038/s41597-024-02952-7))_
 
 ### Storm Surge (DeepSurge)
 
@@ -166,6 +166,7 @@ Hub-height wind and damage probability maps for wind turbines exposed to RAFT-CM
 
 > Lipari, S., Balaguru, K., Rice, J., Feng, S., Xu, W., Berg, L., & Judi, D. (2024). Offshore wind turbine damage probability maps and hub height TC wind speeds for U.S. Atlantic and Gulf Coasts exposed to historical and future tropical cyclones [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.13840812
 
+> Wind Data Hub. trexo/turbine_damage_probability. Maintained by Wind Data Hub for U.S. Department of Energy, Office of Energy Efficiency and Renewable Energy. DOI: https://doi.org/10.21947/2481035 Accessed: 12 Sept 2025.
 
 <br>
 <hr>
