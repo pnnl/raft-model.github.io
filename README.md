@@ -67,7 +67,7 @@ These seeds are then propagated with the beta-advection method, which at its mos
 ### Intensity
 Storm intensity is modeled with a deep learning neural network developed for this framework. Xu et al. ([2021](https://doi.org/10.1175/WAF-D-20-0104.1)) details the methodology, and finds that the model is competitive with&mdash;and even occasionally outperforms&mdash;operational TC intensity forecasts.
 
-![Performance of the intensity model](/assets/img/intensity_model_performance.jpg)
+![Performance of the intensity model](/assets/img/intensity_model_performance_wide.jpg)
 
 <!-- <div style="text-align: center">
   <img 
