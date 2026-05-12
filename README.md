@@ -91,9 +91,9 @@ Because RAFT does not require high-resolution forcings, it can be forced with lo
 Once an ensemble of TCs have been created, RAFT can assess a variety of impacts. Because of the significant sample size of TCs that RAFT generates (tens-of-thousands to millions), this enables the estimation of very rare impacts (e.g. 1-in-500-year events) that would otherwise be very difficult to model or observe.
 
 ### Rainfall
-There are two rainfall models in this repository:
+Two physics-based rainfall models have been adapted:
 - TCR is a physics-based rainfall model described in Lu & Lin et al. ([2018](https://doi.org/10.1002/2013GL058284)). Our implementation is described in Xu et al. ([2024](https://doi.org/10.1038/s41597-024-02952-7)).
-- PHRaMM is a physics-based rainfall model described in Kim et al. ([2022](https://doi.org/10.1038/s41612-022-00308-9)). We have found TCR to perform better overall, so this component may be out of date.
+- PHRaMM is a physics-based rainfall model described in Kim et al. ([2022](https://doi.org/10.1038/s41612-022-00308-9)). We have found TCR to perform better overall.
 
 A deep learning AI rainfall model is currently in development.
 
