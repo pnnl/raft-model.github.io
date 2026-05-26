@@ -204,8 +204,11 @@ Hub-height wind and damage probability maps for wind turbines exposed to RAFT-CM
 <p style="color: #5c5c5c">
 Neither the United States Government nor the United States Department of Energy, nor Battelle, nor any of their employees, nor any jurisdiction or organization that has cooperated in the development of these materials, makes any warranty, express or implied, or assumes any legal liability or responsibility for the accuracy, completeness, or usefulness or any information, apparatus, product, software, or process disclosed, or represents that its use would not infringe privately owned rights. Reference herein to any specific commercial product, process, or service by trade name, trademark, manufacturer, or otherwise does not necessarily constitute or imply its endorsement, recommendation, or favoring by the United States Government or any agency thereof, or Battelle Memorial Institute. The views and opinions of authors expressed herein do not necessarily state or reflect those of the United States Government or any agency thereof.
 </p>
-</small>
  
 <hr>
 
-[Privacy policy](https://www.pnnl.gov/disclaimer.asp?hsLang=en) | [Contact site owner](mailto:julian.rice@pnnl.gov) | [Report issue](mailto:julian.rice@pnnl.gov) | [Site source](https://github.com/pnnl/raft-model.github.io)
+Last modified: 05-26-2026
+
+[Report issue](mailto:julian.rice@pnnl.gov) | [Site source](https://github.com/pnnl/raft-model.github.io) | [Privacy policy](https://www.pnnl.gov/disclaimer.asp?hsLang=en) | [Vulnerability disclosure policy](https://www.energy.gov/vulnerability-disclosure-policy?__hstc=249664665.52516444abb8be3d754d39bdd6851612.1772139202084.1779829913192.1779833721566.13&__hssc=249664665.3.1779833721566&__hsfp=874b7a5d479282129a04dbd444bcb864) | [Accessibility statement](https://www.pnnl.gov/important-notices) | [Freedom of Information Act](https://www.energy.gov/gc/freedom-information-act) | [USA.gov](https://www.usa.gov/)
+
+</small>
