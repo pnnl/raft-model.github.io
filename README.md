@@ -17,6 +17,7 @@ Points of Contact:
     - [Genesis and Track](#genesis-and-track)
     - [Intensity](#intensity)
     - [Projecting into the Future](#projecting-into-the-future)
+    - [Comparison with other synthetic TC methods](#comparison-with-other-synthetic-tc-methods)
   - [Hazard Models](#hazard-models)
     - [Rainfall](#rainfall)
     - [Storm Surge (DeepSurge)](#storm-surge-deepsurge)
@@ -86,6 +87,11 @@ Because RAFT does not require high-resolution forcings, it can be forced with lo
 > _A sample of 500 RAFT storms representative of a possible future atmosphere, forced by simulated 2015-2050 conditions from the E3SM atmospheric model under the SSP5-8.5_
 
 
+### Comparison with other synthetic TC methods
+John et al. [2026](https://doi.org/10.1088/2752-5295/ae7202) conducted an intercomparison study of synthetic TC methods, and found that RAFT performs competitively with leading methods developed at MIT and Columbia, and outperforms them in terms of the spatial distribution of TC landfalls and the seasonality of events.
+
+
+
 ## Hazard Models
 
 Once an ensemble of TCs have been created, RAFT can assess a variety of impacts. Because of the significant sample size of TCs that RAFT generates (tens-of-thousands to millions), this enables the estimation of very rare impacts (e.g. 1-in-500-year events) that would otherwise be very difficult to model or observe.
@@ -123,6 +129,9 @@ RAFT can also be used to assess the hazard posed by TCs to other energy infrastr
 
 
 # Peer-Reviewed Publications
+
+#### 2026
+John, E., Balaguru, K., Feng, S., Emanuel, K., Lee, C.-Y., Rice, J. R., Lalo, N., Leung, L. R., Judi, D., & Berg, L. K. (2026). Characterizing uncertainty in synthetic tropical cyclone hazard models for U.S. energy infrastructure resilience. Environmental Research: Climate. https://doi.org/10.1088/2752-5295/ae7202
 
 #### 2025
 Rice, J. R., Balaguru, K., Ticona Rollano, F., Wilson, J., Daniel, B., Judi, D., Sun, N., & Leung, L. R. (2025). Projecting U.S. coastal storm surge risks and impacts with deep learning. Environmental Research Letters, 20(10), 104013. https://doi.org/10.1088/1748-9326/adfd74
