@@ -1,6 +1,3 @@
-<script id="_fed_an_ua_tag" async type="text/javascript" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=DOE"></script>
-
-
 <div style="display: flex; gap: 40%; align-items: flex-end;">
   <div style="flex: 1.2">
     <a href="https://www.pnnl.gov/">
