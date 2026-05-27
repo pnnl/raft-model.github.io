@@ -129,9 +129,11 @@ RAFT can also be used to assess the hazard posed by TCs to other energy infrastr
 ## Peer-Reviewed Publications
 
 **2026**
+
 John, E., Balaguru, K., Feng, S., Emanuel, K., Lee, C.-Y., Rice, J. R., Lalo, N., Leung, L. R., Judi, D., & Berg, L. K. (2026). Characterizing uncertainty in synthetic tropical cyclone hazard models for U.S. energy infrastructure resilience. Environmental Research: Climate. https://doi.org/10.1088/2752-5295/ae7202
 
 **2025**
+
 Rice, J. R., Balaguru, K., Ticona Rollano, F., Wilson, J., Daniel, B., Judi, D., Sun, N., & Leung, L. R. (2025). Projecting U.S. coastal storm surge risks and impacts with deep learning. Environmental Research Letters, 20(10), 104013. https://doi.org/10.1088/1748-9326/adfd74
 
 Rice, J. R., Balaguru, K., Staid, A., Xu, W., & Judi, D. (2025). Projected increases in tropical cyclone-induced U.S. electric power outage risk. Environmental Research Letters, 20(3), 034030. https://doi.org/10.1088/1748-9326/adad85
@@ -139,17 +141,21 @@ Rice, J. R., Balaguru, K., Staid, A., Xu, W., & Judi, D. (2025). Projected incre
 Lalo, N., Xu, W., Yao, L., Sun, N., Balaguru, K., Rice, J., Lipari, S., Thurber, T., Yang, Z., Deb, M., & Judi, D. (2025). Future North Atlantic tropical cyclone intensities in modified historical environments. Scientific Data, 12(1), 1924. https://doi.org/10.1038/s41597-025-06186-z
 
 **2024**
+
 Lipari, S., Balaguru, K., Rice, J., Feng, S., Xu, W., K. Berg, L., & Judi, D. (2024). Amplified threat of tropical cyclones to US offshore wind energy in a changing climate. Communications Earth & Environment, 5(1), 1–10. https://doi.org/10.1038/s43247-024-01887-6
 
 Xu, W., Balaguru, K., Judi, D. R., Rice, J., Leung, L. R., & Lipari, S. (2024). A North Atlantic synthetic tropical cyclone track, intensity, and rainfall dataset. Scientific Data, 11(1), 130. https://doi.org/10.1038/s41597-024-02952-7
 
 **2023**
+
 Balaguru, K., Xu, W., Chang, C.-C., Leung, L. R., Judi, D. R., Hagos, S. M., Wehner, M. F., Kossin, J. P., & Ting, M. (2023). Increased U.S. coastal hurricane risk under climate change. Science Advances, 9(14), eadf0259. https://doi.org/10.1126/sciadv.adf0259
 
 **2021**
+
 Xu, W., Balaguru, K., August, A., Lalo, N., Hodas, N., DeMaria, M., & Judi, D. (2021). Deep Learning Experiments for Tropical Cyclone Intensity Forecasts. Weather and Forecasting, 36(4), 1453–1470. https://doi.org/10.1175/WAF-D-20-0104.1
 
 **2018**
+
 Kelly, P., Leung, L. R., Balaguru, K., Xu, W., Mapes, B., & Soden, B. (2018). Shape of Atlantic Tropical Cyclone Tracks and the Indian Monsoon. Geophysical Research Letters, 45(19), 10,746-10,755. https://doi.org/10.1029/2018GL080098
 
 
