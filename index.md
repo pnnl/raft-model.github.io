@@ -86,7 +86,7 @@ Because RAFT does not require high-resolution forcings, it can be forced with lo
 
 
 ### Comparison with other synthetic TC methods
-John et al. ([2026](https://doi.org/10.1088/2752-5295/ae7202)) conducted an intercomparison of RAFT, the MIT tropical cyclone hazard model (Emanuel et al. [2006](https://doi.org/10.1175/BAMS-87-3-299)), and Columbia University's CHAZ model (Lee et al. [2018](https://doi.org/10.1002/2017MS001186)). This study found that RAFT performs competitively with leading methods developed at MIT and Columbia, and outperforms them in terms of the spatial distribution of TC landfalls and the seasonality of events.
+John et al. ([2026](https://doi.org/10.1088/2752-5295/ae7202)) conducted an intercomparison of RAFT, the MIT tropical cyclone hazard model (Emanuel et al. [2006](https://doi.org/10.1175/BAMS-87-3-299)), and Columbia University's CHAZ model (Lee et al. [2018](https://doi.org/10.1002/2017MS001186)). This study found that all three leading methods perform competatively, and that RAFT outperforms the others in terms of the spatial distribution of TC landfalls and the seasonality of events.
 
 
 
