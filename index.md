@@ -73,7 +73,7 @@ Storm seeds are created by randomly sampling from the smoothed spatio-temporal d
 These seeds are then propagated with the beta-advection method, which at its most basic means that the storms are blown by the large-scale prevailing winds. The beta-advection technique was initially described by Emanuel et al. ([2006](https://doi.org/10.1175/BAMS-87-3-299)), with an improved beta scheme as described in Xu et al. ([2024](https://doi.org/10.1038/s41597-024-02952-7)). Note that these tracks are NOT simply perturbations of historical events, but entirely new storms (yet physically realistic) that in some cases have never been seen before.
 
 #### Intensity
-Storm intensity is modeled with a deep learning neural network developed for this framework. Xu et al. ([2021](https://doi.org/10.1175/WAF-D-20-0104.1)) details the methodology, and finds that the model is competitive with&mdash;and even occasionally outperforms&mdash;operational TC intensity forecasts.
+Storm intensity is modeled with a deep learning neural network developed for this framework. Xu et al. ([2021](https://doi.org/10.1175/WAF-D-20-0104.1)) details the methodology, and finds that the model is competitive with&mdash;and even occasionally outperforms&mdash;operational TC intensity forecasts while remaining extremely efficient and flexible.
 
 ![Performance of the intensity model](/assets/img/intensity_model_performance_wide.jpg)
 > _Average error of our AI intensity model (MLP), compared with a number of established methods including NHC Official Forecasts (OFCL) and NOAA's Hurricane Weather & Research Forecasting model (HWFI). Lower is better. (Xu et al. [2021](https://doi.org/10.1175/WAF-D-20-0104.1))_
@@ -86,7 +86,7 @@ Because RAFT does not require high-resolution forcings, it can be forced with lo
 
 
 ### Comparison with other synthetic TC methods
-John et al. [2026](https://doi.org/10.1088/2752-5295/ae7202) conducted an intercomparison study of synthetic TC methods, and found that RAFT performs competitively with leading methods developed at MIT and Columbia, and outperforms them in terms of the spatial distribution of TC landfalls and the seasonality of events.
+John et al. ([2026](https://doi.org/10.1088/2752-5295/ae7202)) conducted an intercomparison of RAFT, the MIT tropical cyclone hazard model (Emanuel et al. [2006](https://doi.org/10.1175/BAMS-87-3-299)), and Columbia University's CHAZ model (Lee et al. [2018](https://doi.org/10.1002/2017MS001186)). This study found that RAFT performs competitively with leading methods developed at MIT and Columbia, and outperforms them in terms of the spatial distribution of TC landfalls and the seasonality of events.
 
 
 
